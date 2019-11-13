@@ -1,0 +1,16 @@
+[
+  {
+    "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b_5",
+    "updateDate": "2019-10-28T00:00:00.0Z",
+    "titleText": "Alexa Skills in Review, week of November 1st",
+    "mainText": "The popular Word Jumble Alexa skill now has an integrated leaderboard using Amazon Game On. Add yourself to the leaderboard to see where you rank against other players.",
+    "redirectionUrl": "http://www.alexawordjumble.com"
+  },
+  {
+    "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b_6",
+    "updateDate": "2019-10-27T00:00:00.0Z",
+    "titleText": "Alexa Skills in Review, week of November 1st",
+    "mainText": "The Food Network Kitchen is now on the Amazon Echo Show. You can access recipes, cooking demonstrations, and popular TV show episodes.",
+    "redirectionUrl": "https://www.foodnetwork.com/site/apps/alexa"
+  }
+]
