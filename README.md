@@ -4,7 +4,7 @@ This course from [A Cloud Guru](https://acloud.guru) prepares you for the [AWS C
 
 ## Getting Started
 
-The code for the Adventure Guru Alexa skill is broken out by chapter. For example, the Connecting Lambda to DynamoDB
+The code for the Adventure Guru Alexa skill is broken out by lecture. For example, the Connecting Lambda to DynamoDB
 chapter has an associated folder in the repo called Connecting_Lambda_to_DynamoDB. In each folder you may find multiple files:
 
 * **lambda_function.py** - The Python code for the skill.
