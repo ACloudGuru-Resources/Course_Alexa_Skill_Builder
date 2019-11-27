@@ -1,0 +1,8 @@
+"CountryId (S)","QuestionNumber (N)","QuestionText (S)"
+"1","1","You see a gondola ride <audio src=""soundbank://soundlibrary/boats_ships/oar_boat/oar_boat_01""/> Do you take it, yes or no?"
+"1","2","You hear commotion and church bells ringing <audio src=""soundbank://soundlibrary/musical/amzn_sfx_church_bell_1x_05""/> Look it's in Saint Peter's square. Do you see what's going on, yes or no?"
+"2","3","<audio src=""soundbank://soundlibrary/animals/amzn_sfx_horse_huff_whinny_01""/> You've always wanted to live the life of an Australian Cowboy. You have the opportunity to herd and shear sheep. Do you take it, yes or no?"
+"1","3","As you're having lunch at La Pergola, <audio src=""soundbank://soundlibrary/foley/amzn_sfx_restaurant_ambience_01""/> someone offers you two free tickets to the Tuscan Pasta Making Class and Wine Tasting. Do you take it, yes or no?"
+"1","4","You've always imagined being one of the spectators when gladiators fought at the colosseum <audio src=""soundbank://soundlibrary/swords/swords_03""/> Do you walk through the history of Rome's majesty at the colosseum, yes or no?"
+"2","1","You land in scenic Sydney. <audio src=""soundbank://soundlibrary/transportation/amzn_sfx_airplane_takeoff_whoosh_01""/> When you leave the airport, you're offered a free tour via a harbour boat cruise that makes a stop by the magnificent Sydney Opera House. Do you take it, yes or no?"
+"2","2","You're exploring the Red desert <audio src=""soundbank://soundlibrary/nature/amzn_sfx_strong_wind_desert_01""/> flora and fauna around you in breathtaking detail as you leisurely cross the vast expanse. You see a camel that you can ride. Do you get on it, yes or no?"
