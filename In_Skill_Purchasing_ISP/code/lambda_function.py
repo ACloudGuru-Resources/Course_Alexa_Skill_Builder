@@ -235,8 +235,8 @@ class SpeakToGuideIntentHandler(AbstractRequestHandler):
                             ).response
         except:
             logger.error("An error in SpeakToGuideIntentHandler for text type {} ".format(handler_input)) 
-            speak_output = "Sorry, adventurer! The travel guide is out today attending new hire training. Please check back tomorrow!"
-            reprompt_output = "Please check back tomorrow!"
+            speak_output = "A tip is not available at this time. Make sure that you are in active game play. Say visit Italy or visit Australia"
+            reprompt_output = "Would you like to visit Italy or Australia?"
             return (
                 response_builder
                     .speak(speak_output)
@@ -593,7 +593,8 @@ def has_active_adventure(handler_input):
                     handler_input.attributes_manager.session_attributes["country"] =  get_country_name(item['CountryId'])
                 
                 if 'stats_record' not in handler_input.attributes_manager.session_attributes:
-                    handler_input.attributes_manager.session_attributes["stats_record"] = stats_record['Items'][x]
+                    new_item = {'Items':[item]}
+                    handler_input.attributes_manager.session_attributes["stats_record"] = new_item
                 return True
         #if no active adventure, return false
         return False

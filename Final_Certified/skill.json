@@ -1,0 +1,100 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "adventure-guru",
+          "sourceDir": "lambda/us-east-1_adventure-guru"
+        },
+        "interfaces": [
+          {
+            "type": "ALEXA_PRESENTATION_APL",
+            "supportedViewports": [
+              {
+                "mode": "HUB",
+                "shape": "ROUND",
+                "minWidth": 480,
+                "maxWidth": 480,
+                "minHeight": 480,
+                "maxHeight": 480
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 1024,
+                "maxWidth": 1024,
+                "minHeight": 600,
+                "maxHeight": 600
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 1280,
+                "maxWidth": 1280,
+                "minHeight": 800,
+                "maxHeight": 800
+              },
+              {
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "minWidth": 960,
+                "maxWidth": 960,
+                "minHeight": 540,
+                "maxHeight": 540
+              },
+              {
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "minWidth": 960,
+                "maxWidth": 960,
+                "minHeight": 480,
+                "maxHeight": 480
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "https://alexacertification.s3.amazonaws.com/privacy.pdf",
+          "termsOfUseUrl": "https://alexacertification.s3.amazonaws.com/termsofuse.pdf"
+        }
+      },
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "adventure guru",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3dbf/0b2ef0feb66944e78948cfa635d04d27/APP_ICON?versionId=Tv52j.7xshNhPsg7wgehhypNx_TaH_Nc&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191127T230206Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=b9bd372a6948a39aee6989ed39d01982df9b1491128b60e56d086d6d23033441",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/2c56/7ddcd4add0ac4d3d9dabddfe5062a2ba/APP_ICON_LARGE?versionId=_AO0vD2GgqHTERtsgzOOnA4TzQE73uhG&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20191127T230206Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20191127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3413ee0cb96b3ff7fb984c557e575dd6328287d63cd10f145363d23dbbf17d03",
+          "summary": "Adventure Guru is a fun game allowing you to explore fun destinations around the world.",
+          "description": "Adventure Guru allows you to unleash your inner adventurer and explore the world and way beyond. On your adventure, you start with a lot of money and energy, but the choices you make will either increase or decrease them. Your adventure ends when you either run out of money or energy. Stay on your adventure as long as you can before it ends! How many turns can you survive?",
+          "examplePhrases": [
+            "Alexa, open adventure guru",
+            "Alexa, tell Adventure Guru, I'd like to visit Italy",
+            "Alexa, tell Adventure Guru, I'd like to visit Australia"
+          ],
+          "keywords": [
+            "travel",
+            "adventure",
+            "Italy"
+          ],
+          "updatesDescription": "Newly added Italy and Australia adventures"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open adventure guru and then say I'd like to visit Italy",
+      "category": "GAMES",
+      "distributionCountries": []
+    }
+  }
+}

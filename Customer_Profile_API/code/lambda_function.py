@@ -460,7 +460,8 @@ def has_active_adventure(handler_input):
                 handler_input.attributes_manager.session_attributes["country"] = get_country_name(stats_record['Items'][0]['CountryId'])
                 
             if 'stats_record' not in handler_input.attributes_manager.session_attributes:
-                handler_input.attributes_manager.session_attributes["stats_record"] = stats_record
+                new_item = {'Items':[item]}
+                handler_input.attributes_manager.session_attributes["stats_record"] = new_item
             return True
         else:
             return False
