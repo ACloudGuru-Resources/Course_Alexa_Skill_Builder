@@ -198,9 +198,7 @@ class HelpIntentHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Hello, adventurer! It's good to see you! Your wealth or energy either increase or decrease based on the choices " 
-        "you make while on your adventure. When you run out of either, the game ends. " 
-        "To start your adventure, say visit Italy or Australia." 
+        speak_output = "Hello, adventurer! It's good to see you! To play this game, start by saying, visit Italy or visit Australia. If you're stuck on a hard level, say speak to the guide. Don't forget that your wealth or energy either increase or decrease based on the choices you make while on your adventure. When you run out of either, the game ends. " 
 
         response_builder = handler_input.response_builder
         include_display(handler_input)
