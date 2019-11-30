@@ -11,6 +11,8 @@ chapter has an associated folder in the repo called Connecting_Lambda_to_DynamoD
 * **lambda_function.zip** - The Lambda function deployment package. If this file is not present, use the deployment package from the previous chapter.
 * **en-US.json** - The language model, which can be uploaded using the JSON Editor on the Alexa Developer Console.
 
+The final certified skill (minus In-Skill Purchasing) can be found in the [Alexa Skills Store](https://www.amazon.com/dp/B0825P4HYH/ref=sr_1_1?keywords=adventure+guru&qid=1575120232&s=digital-skills&sr=1-1).
+
 ### Prerequisites
 
 You will need the following tools installed locally for skill development.
