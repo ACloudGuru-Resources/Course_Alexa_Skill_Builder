@@ -1,0 +1,3 @@
+## Getting Started
+
+As described in the lecture, feed items are date driven; don’t forget that anything with a date field older than 7 days will not be played. When using the sample code, the date needs to be updated. Please replace **YOUR_DATE_HERE** in the sample JSON with a valid future date using a format like **2019-10-28T00:00:00.0Z**. You will also need to update the **uid** to your unique value by replacing **YOUR_UID_HERE**.
